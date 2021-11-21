@@ -23,8 +23,9 @@
     <body class="antialiased">
         <div id="app">
 
-            <password-input></password-input>
-
+            <comment-form :data-comments="{{$comments}}"></comment-form>
+{{-- Les : servent à dire qu'il faut traiter ça comme du JS et non comme une chaîne de caractères
+le data-comments ne peux pas être modifier, on va donc créer une copie dans date dans la vue dans le date --}}
         </div>
 
         <script src="/js/app.js"></script>

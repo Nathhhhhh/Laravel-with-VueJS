@@ -2,8 +2,8 @@
     <div class="container-fluid d-inline-flex bg-secondary min-vw-100 min-vh-100 justify-content-center align-items-center" style="--bs-bg-opacity: .5;" >
         <div class="d-inline-flex">
 
-        <input :type="show ? 'text' : 'password'" class="border form-control">
-        <button type="button" @click="show = ! show" class="btn btn-light">
+        <input :type="show ? 'text' : 'password'" class="border form-control" >
+        <button type="button" @click="show = ! show" class="btn btn-light btn-outline-primary btn-lg">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" style="width: 0.75rem; height: 0.75rem;"
                 v-show="! show">
                 <path
